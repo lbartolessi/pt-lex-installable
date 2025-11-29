@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pt_lex"
+version = "0.1.0"
+authors = [
+  { name="Original: msamribeiro, Packager: <Tu Nombre o Nick>", email="<tu_email@ejemplo.com>" },
+]
+description = "A Python library for Portuguese lexical analysis, adapted for installation."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+]
+
+[project.urls]
+"Homepage" = "<URL de tu fork en GitHub>"
+"Bug Tracker" = "<URL de tu fork en GitHub>/issues"
