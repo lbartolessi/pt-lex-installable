@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "pt_lex"
 version = "0.1.0"
 authors = [
-  { name="Original: msamribeiro, Packager: <Tu Nombre o Nick>", email="<tu_email@ejemplo.com>" },
+  { name="Original: msamribeiro, Packager: lbartolessi", email="lbartolessi@zoho.eu" },
 ]
 description = "A Python library for Portuguese lexical analysis, adapted for installation."
 readme = "README.md"
@@ -22,5 +22,5 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "<URL de tu fork en GitHub>"
-"Bug Tracker" = "<URL de tu fork en GitHub>/issues"
+"Homepage" = "https://github.com/lbartolessi/pt-lex-installable"
+"Bug Tracker" = "https://github.com/lbartolessi/pt-lex-installable/issues"
